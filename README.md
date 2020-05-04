@@ -1,4 +1,4 @@
-# Use Fetch Hook
+# Global Context Example
 
 TLDR; This repo shows how to properly manage your global states with React Context!
 
