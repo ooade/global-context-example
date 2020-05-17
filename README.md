@@ -1,6 +1,6 @@
 # Global Context Example
 
-TLDR; This repo shows how to properly manage your global states with React Context!
+TLDR; This is an experimental repo that shows how to properly manage your global states with React Context!
 
 ## Contents
 
@@ -36,5 +36,7 @@ yarn start
 ```
 
 ---
+
+If you find yourself wanting to do this, you should just use Redux or go with [Recoiljs](https://recoiljs.org/).
 
 If you have any question, feel free to [reach out to me](https://twitter.com/_ooade)!

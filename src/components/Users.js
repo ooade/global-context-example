@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from './hooks';
-import { fetchUsers } from './actions/users';
+import { useSelector, useDispatch } from '../hooks';
+import { fetchUsers } from '../actions/users';
 
 const Users = () => {
 	const users = useSelector((state) => state.users);
@@ -9,8 +9,6 @@ const Users = () => {
 	useEffect(() => {
 		dispatch(fetchUsers());
 	}, [dispatch]);
-
-	console.log(users);
 
 	return (
 		<div className="Users">

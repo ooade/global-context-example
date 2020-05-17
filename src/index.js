@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Users from './Users';
 import * as serviceWorker from './serviceWorker';
 
 import { Provider } from './hooks';
@@ -19,7 +18,6 @@ const initialState = {
 ReactDOM.render(
 	<Provider reducers={reducers} initialState={initialState}>
 		<App />
-		<Users />
 	</Provider>,
 	document.getElementById('root')
 );
